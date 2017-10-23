@@ -8,7 +8,7 @@ class HelloWorld(QDialog):
     def __int__(self):
         QDialog.__init__(self)
 
-        layout = QVBoxLayout()
+        layout = QGridLayout()
 
         label = QLabel("Hello World!")
         line_edit = QLineEdit()
@@ -19,6 +19,12 @@ class HelloWorld(QDialog):
         layout.addWidget(button)
 
         self.setLayout(layout)
+
+        button.clicked.connect(self.close)
+        line_edit.textChanged.connect(self.changeTextLabel)
+
+    def changeTextLabel(self, text):
+        self.label.setText(text)
 
 
 app = QApplication(sys.argv)
