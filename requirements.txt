@@ -1,0 +1,5 @@
+1 - Download a file from the url found in QLineEdit
+2 - Display a QProgressBar while the file is being downloaded
+3 - Allow the user to select the save location using a "File Save" dialog
+4 - Display a message when the downloaded is completed
+5 - Handle errors (exceptions) by displaying an error message
