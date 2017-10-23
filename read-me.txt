@@ -1,0 +1,4 @@
+In this project i am using the pluralsight course to create a simple desktop app.
+However the course uses only PyQT4 and i am trying to write it in PyQt5.
+this is challenging for me as I have never used PyQt before and i am a beginner with
+python as a whole.
